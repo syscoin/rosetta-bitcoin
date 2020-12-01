@@ -20,8 +20,8 @@ import (
 	"github.com/syscoin/rosetta-syscoin/syscoin"
 	"github.com/syscoin/rosetta-syscoin/configuration"
 
-	"github.com/syscoin/rosetta-sdk-go/server"
-	"github.com/syscoin/rosetta-sdk-go/types"
+	"github.com/coinbase/rosetta-sdk-go/server"
+	"github.com/coinbase/rosetta-sdk-go/types"
 )
 
 // NetworkAPIService implements the server.NetworkAPIServicer interface.

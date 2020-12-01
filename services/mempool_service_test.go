@@ -21,7 +21,7 @@ import (
 	"github.com/syscoin/rosetta-syscoin/configuration"
 	mocks "github.com/syscoin/rosetta-syscoin/mocks/services"
 
-	"github.com/syscoin/rosetta-sdk-go/types"
+	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/stretchr/testify/assert"
 )
 

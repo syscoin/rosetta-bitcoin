@@ -24,8 +24,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/syscoin/rosetta-sdk-go/storage"
-	"github.com/syscoin/rosetta-sdk-go/types"
+	"github.com/coinbase/rosetta-sdk-go/storage"
+	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/stretchr/testify/assert"
 )
 

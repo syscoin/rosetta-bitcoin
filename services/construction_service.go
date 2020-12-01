@@ -31,9 +31,9 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
-	"github.com/syscoin/rosetta-sdk-go/parser"
-	"github.com/syscoin/rosetta-sdk-go/server"
-	"github.com/syscoin/rosetta-sdk-go/types"
+	"github.com/coinbase/rosetta-sdk-go/parser"
+	"github.com/coinbase/rosetta-sdk-go/server"
+	"github.com/coinbase/rosetta-sdk-go/types"
 )
 
 const (

@@ -30,9 +30,9 @@ import (
 	"github.com/syscoin/rosetta-syscoin/services"
 	"github.com/syscoin/rosetta-syscoin/utils"
 
-	"github.com/syscoin/rosetta-sdk-go/asserter"
-	"github.com/syscoin/rosetta-sdk-go/server"
-	"github.com/syscoin/rosetta-sdk-go/types"
+	"github.com/coinbase/rosetta-sdk-go/asserter"
+	"github.com/coinbase/rosetta-sdk-go/server"
+	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/zap/ctxzap"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
