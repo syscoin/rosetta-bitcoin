@@ -19,7 +19,7 @@ import (
 	"strings"
 
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/syscoin/rosetta-sdk-go/types"
 )
 
 const (

@@ -25,11 +25,11 @@ import (
 	"github.com/syscoin/rosetta-syscoin/services"
 	"github.com/syscoin/rosetta-syscoin/utils"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/storage"
-	"github.com/coinbase/rosetta-sdk-go/syncer"
-	"github.com/coinbase/rosetta-sdk-go/types"
-	sdkUtils "github.com/coinbase/rosetta-sdk-go/utils"
+	"github.com/syscoin/rosetta-sdk-go/asserter"
+	"github.com/syscoin/rosetta-sdk-go/storage"
+	"github.com/syscoin/rosetta-sdk-go/syncer"
+	"github.com/syscoin/rosetta-sdk-go/types"
+	sdkUtils "github.com/syscoin/rosetta-sdk-go/utils"
 	"github.com/dgraph-io/badger/v2"
 	"github.com/dgraph-io/badger/v2/options"
 )

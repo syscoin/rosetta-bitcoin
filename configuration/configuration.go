@@ -25,8 +25,8 @@ import (
 	"github.com/syscoin/rosetta-syscoin/syscoin"
 
 	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/coinbase/rosetta-sdk-go/storage"
-	"github.com/coinbase/rosetta-sdk-go/types"
+	"github.com/syscoin/rosetta-sdk-go/storage"
+	"github.com/syscoin/rosetta-sdk-go/types"
 )
 
 // Mode is the setting that determines if

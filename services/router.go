@@ -19,8 +19,8 @@ import (
 
 	"github.com/syscoin/rosetta-syscoin/configuration"
 
-	"github.com/coinbase/rosetta-sdk-go/asserter"
-	"github.com/coinbase/rosetta-sdk-go/server"
+	"github.com/syscoin/rosetta-sdk-go/asserter"
+	"github.com/syscoin/rosetta-sdk-go/server"
 )
 
 // NewBlockchainRouter creates a Mux http.Handler from a collection
