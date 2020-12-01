@@ -7,11 +7,11 @@
    Rosetta Syscoin
 </h3>
 <p align="center">
-  <a href="https://circleci.com/gh/coinbase/rosetta-syscoin/tree/master"><img src="https://circleci.com/gh/coinbase/rosetta-syscoin/tree/master.svg?style=shield" /></a>
-  <a href="https://coveralls.io/github/coinbase/rosetta-syscoin"><img src="https://coveralls.io/repos/github/coinbase/rosetta-syscoin/badge.svg" /></a>
-  <a href="https://goreportcard.com/report/github.com/coinbase/rosetta-syscoin"><img src="https://goreportcard.com/badge/github.com/coinbase/rosetta-syscoin" /></a>
-  <a href="https://github.com/coinbase/rosetta-syscoin/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/coinbase/rosetta-syscoin.svg" /></a>
-  <a href="https://pkg.go.dev/github.com/coinbase/rosetta-syscoin?tab=overview"><img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield" /></a>
+  <a href="https://circleci.com/gh/syscoin/rosetta-syscoin/tree/master"><img src="https://circleci.com/gh/syscoin/rosetta-syscoin/tree/master.svg?style=shield" /></a>
+  <a href="https://coveralls.io/github/syscoin/rosetta-syscoin"><img src="https://coveralls.io/repos/github/syscoin/rosetta-syscoin/badge.svg" /></a>
+  <a href="https://goreportcard.com/report/github.com/syscoin/rosetta-syscoin"><img src="https://goreportcard.com/badge/github.com/syscoin/rosetta-syscoin" /></a>
+  <a href="https://github.com/syscoin/rosetta-syscoin/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/syscoin/rosetta-syscoin.svg" /></a>
+  <a href="https://pkg.go.dev/github.com/syscoin/rosetta-syscoin?tab=overview"><img src="https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=shield" /></a>
 </p>
 
 <p align="center"><b>
@@ -43,7 +43,7 @@ Running the following commands will create a Docker image called `rosetta-syscoi
 #### From GitHub
 To download the pre-built Docker image from the latest release, run:
 ```text
-curl -sSfL https://raw.githubusercontent.com/coinbase/rosetta-syscoin/master/install.sh | sh -s
+curl -sSfL https://raw.githubusercontent.com/syscoin/rosetta-syscoin/master/install.sh | sh -s
 ```
 _Do not try to install rosetta-syscoin using GitHub Packages!_
 

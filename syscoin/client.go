@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"time"
 
-	syscoinUtils "github.com/coinbase/rosetta-syscoin/utils"
+	syscoinUtils "github.com/syscoin/rosetta-syscoin/utils"
 
 	"github.com/btcsuite/btcutil"
 	"github.com/coinbase/rosetta-sdk-go/storage"

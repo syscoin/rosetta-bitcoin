@@ -24,8 +24,8 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/coinbase/rosetta-syscoin/syscoin"
-	"github.com/coinbase/rosetta-syscoin/configuration"
+	"github.com/syscoin/rosetta-syscoin/syscoin"
+	"github.com/syscoin/rosetta-syscoin/configuration"
 
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/btcsuite/btcd/txscript"

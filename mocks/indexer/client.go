@@ -5,7 +5,7 @@ package indexer
 import (
 	context "context"
 
-	syscoin "github.com/coinbase/rosetta-syscoin/syscoin"
+	syscoin "github.com/syscoin/rosetta-syscoin/syscoin"
 
 	mock "github.com/stretchr/testify/mock"
 

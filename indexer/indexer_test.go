@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coinbase/rosetta-syscoin/syscoin"
-	"github.com/coinbase/rosetta-syscoin/configuration"
-	mocks "github.com/coinbase/rosetta-syscoin/mocks/indexer"
+	"github.com/syscoin/rosetta-syscoin/syscoin"
+	"github.com/syscoin/rosetta-syscoin/configuration"
+	mocks "github.com/syscoin/rosetta-syscoin/mocks/indexer"
 
 	"github.com/coinbase/rosetta-sdk-go/storage"
 	"github.com/coinbase/rosetta-sdk-go/types"

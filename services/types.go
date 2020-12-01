@@ -17,7 +17,7 @@ package services
 import (
 	"context"
 
-	"github.com/coinbase/rosetta-syscoin/syscoin"
+	"github.com/syscoin/rosetta-syscoin/syscoin"
 
 	"github.com/coinbase/rosetta-sdk-go/types"
 )

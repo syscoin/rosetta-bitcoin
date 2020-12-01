@@ -20,7 +20,7 @@ deps:
 	go get ./...
 
 build:
-	docker build -t rosetta-syscoin:latest https://github.com/coinbase/rosetta-syscoin.git
+	docker build -t rosetta-syscoin:latest https://github.com/syscoin/rosetta-syscoin.git
 
 build-local:
 	docker build -t rosetta-syscoin:latest .

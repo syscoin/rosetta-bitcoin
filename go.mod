@@ -1,4 +1,4 @@
-module github.com/coinbase/rosetta-syscoin
+module github.com/syscoin/rosetta-syscoin
 
 go 1.13
 

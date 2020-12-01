@@ -24,11 +24,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/coinbase/rosetta-syscoin/syscoin"
-	"github.com/coinbase/rosetta-syscoin/configuration"
-	"github.com/coinbase/rosetta-syscoin/indexer"
-	"github.com/coinbase/rosetta-syscoin/services"
-	"github.com/coinbase/rosetta-syscoin/utils"
+	"github.com/syscoin/rosetta-syscoin/syscoin"
+	"github.com/syscoin/rosetta-syscoin/configuration"
+	"github.com/syscoin/rosetta-syscoin/indexer"
+	"github.com/syscoin/rosetta-syscoin/services"
+	"github.com/syscoin/rosetta-syscoin/utils"
 
 	"github.com/coinbase/rosetta-sdk-go/asserter"
 	"github.com/coinbase/rosetta-sdk-go/server"
