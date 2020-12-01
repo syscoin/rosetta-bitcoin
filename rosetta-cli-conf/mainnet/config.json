@@ -1,6 +1,6 @@
 {
   "network": {
-    "blockchain": "Bitcoin",
+    "blockchain": "Syscoin",
     "network": "Mainnet"
   },
   "data_directory": "cli-data",
