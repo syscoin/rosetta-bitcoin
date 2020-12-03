@@ -84,6 +84,12 @@ const (
 	OutputOverhead        = 9                // 8 value, 1 script size
 	P2PKHScriptPubkeySize = 25               // P2PKH size
 )
+chaincfg.MainnetParams.PubKeyHashAddrID = 63
+chaincfg.MainnetParams.ScriptHashAddrID = 5
+chaincfg.MainnetParams.Bech32HRPSegwit = "sys"
+chaincfg.Testnet3Params.PubKeyHashAddrID = 65
+chaincfg.Testnet3Params.ScriptHashAddrID = 196
+chaincfg.Testnet3Params.Bech32HRPSegwit = "tsys"
 
 var (
 	// MainnetGenesisBlockIdentifier is the genesis block for mainnet.
@@ -92,9 +98,6 @@ var (
 	}
 
 	// MainnetParams are the params for mainnet.
-	chaincfg.MainnetParams.PubKeyHashAddrID = 63
-	chaincfg.MainnetParams.ScriptHashAddrID = 5
-	chaincfg.MainnetParams.Bech32HRPSegwit = "sys"
 	MainnetParams = &chaincfg.MainnetParams
 
 	// MainnetCurrency is the *types.Currency for mainnet.
@@ -109,9 +112,6 @@ var (
 	}
 
 	// TestnetParams are the params for testnet.
-	chaincfg.Testnet3Params.PubKeyHashAddrID = 65
-	chaincfg.Testnet3Params.ScriptHashAddrID = 196
-	chaincfg.Testnet3Params.Bech32HRPSegwit = "tsys"
 	TestnetParams = &chaincfg.Testnet3Params
 
 	// chain parameters
