@@ -92,7 +92,11 @@ var (
 	}
 
 	// MainnetParams are the params for mainnet.
-	MainnetParams = &chaincfg.MainNetParams
+	MainnetParams = &chaincfg.MainNetParams {
+		PubKeyHashAddrID: []byte{63},
+		ScriptHashAddrID: []byte{5},
+		Bech32HRPSegwit: "sys"
+	}
 
 	// MainnetCurrency is the *types.Currency for mainnet.
 	MainnetCurrency = &types.Currency{
@@ -106,21 +110,13 @@ var (
 	}
 
 	// TestnetParams are the params for testnet.
-	TestnetParams = &chaincfg.TestNet3Params
+	TestnetParams = &chaincfg.TestNet3Params{
+		PubKeyHashAddrID: []byte{65},
+		ScriptHashAddrID: []byte{196},
+		Bech32HRPSegwit: "tsys"
+	}
 
 	// chain parameters
-
-	// Mainnet address encoding magics
-	MainnetParams.PubKeyHashAddrID = []byte{63} // base58 prefix: s
-	MainnetParams.ScriptHashAddrID = []byte{5} // base68 prefix: 3
-	MainnetParams.Bech32HRPSegwit = "sys"
-
-
-	// Testnet address encoding magics
-	TestnetParams.PubKeyHashAddrID = []byte{65} // base58 prefix: t
-	TestnetParams.ScriptHashAddrID = []byte{196} // base58 prefix: 2
-	TestnetParams.Bech32HRPSegwit = "tsys"
-
 	// TestnetCurrency is the *types.Currency for testnet.
 	TestnetCurrency = &types.Currency{
 		Symbol:   "tSYS",
