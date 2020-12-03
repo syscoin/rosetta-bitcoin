@@ -95,7 +95,7 @@ var (
 	MainnetParams = &chaincfg.MainNetParams {
 		PubKeyHashAddrID: []byte{63},
 		ScriptHashAddrID: []byte{5},
-		Bech32HRPSegwit: "sys"
+		Bech32HRPSegwit: "sys",
 	}
 
 	// MainnetCurrency is the *types.Currency for mainnet.
@@ -113,7 +113,7 @@ var (
 	TestnetParams = &chaincfg.TestNet3Params{
 		PubKeyHashAddrID: []byte{65},
 		ScriptHashAddrID: []byte{196},
-		Bech32HRPSegwit: "tsys"
+		Bech32HRPSegwit: "tsys",
 	}
 
 	// chain parameters
