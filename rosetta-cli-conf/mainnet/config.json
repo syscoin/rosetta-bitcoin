@@ -8,15 +8,8 @@
   "max_retries": 5,
   "max_online_connections": 1000,
   "tip_delay": 1800,
-  "memory_limit_disabled": true,
   "compression_disabled": true,
-  "construction": {
-    "constructor_dsl_file": "syscoin.ros",
-    "end_conditions": {
-      "create_account": 10,
-      "transfer": 10
-    }
-  },
+  "memory_limit_disabled": true,
   "data": {
     "initial_balance_fetch_disabled": true,
     "end_conditions": {
