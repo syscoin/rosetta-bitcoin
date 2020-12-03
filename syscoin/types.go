@@ -85,16 +85,16 @@ const (
 	P2PKHScriptPubkeySize = 25               // P2PKH size
 )
 
-func CreateMainNetParams() (chaincfg.MainNetParams) {
-	params chaincfg.MainNetParams
+func CreateMainNetParams() (*chaincfg.MainNetParams) {
+	params := &chaincfg.MainNetParams
 	params.PubKeyHashAddrID = 63
 	params.ScriptHashAddrID = 5
 	params.Bech32HRPSegwit = "sys"
 	return params
 }
 
-func CreateTestNetParams() (chaincfg.TestNetParams) {
-	params chaincfg.TestNetParams
+func CreateTestNetParams() (*chaincfg.TestNetParams) {
+	params := &chaincfg.TestNetParams
 	params.PubKeyHashAddrID = 65
 	params.ScriptHashAddrID = 196
 	params.Bech32HRPSegwit = "tsys"
@@ -108,7 +108,7 @@ var (
 	}
 
 	// MainnetParams are the params for mainnet.
-	MainnetParams = &CreateMainNetParams()
+	MainnetParams = CreateMainNetParams()
 
 	// MainnetCurrency is the *types.Currency for mainnet.
 	MainnetCurrency = &types.Currency{
@@ -122,7 +122,7 @@ var (
 	}
 
 	// TestnetParams are the params for testnet.
-	TestnetParams = &CreateTestNetParams()
+	TestnetParams = CreateTestNetParams()
 
 	// chain parameters
 	// TestnetCurrency is the *types.Currency for testnet.
