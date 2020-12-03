@@ -85,6 +85,7 @@ const (
 	P2PKHScriptPubkeySize = 25               // P2PKH size
 )
 
+// CreateMainNetParams is a function to override default mainnet settings with address prefixes
 func CreateMainNetParams() (*chaincfg.Params) {
 	params := &chaincfg.MainNetParams
 	params.PubKeyHashAddrID = 63
@@ -93,6 +94,7 @@ func CreateMainNetParams() (*chaincfg.Params) {
 	return params
 }
 
+// CreateTestNet3Params is a function to override default testnet settings with address prefixes
 func CreateTestNet3Params() (*chaincfg.Params) {
 	params := &chaincfg.TestNet3Params
 	params.PubKeyHashAddrID = 65
