@@ -10,8 +10,6 @@
   "tip_delay": 1800,
   "compression_disabled": true,
   "memory_limit_disabled": true,
-  "max_table_size": 1073741824,
-  "max_log_size": 268435456,
   "data": {
     "initial_balance_fetch_disabled": true,
     "end_conditions": {
