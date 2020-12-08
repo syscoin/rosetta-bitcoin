@@ -86,7 +86,7 @@ const (
 )
 
 // SetMainNetParams is a function to override default mainnet settings with address prefixes
-func SetMainNetParams()  {
+func SetMainNetParams() {
 	chaincfg.MainNetParams.PubKeyHashAddrID = 63
 	chaincfg.MainNetParams.ScriptHashAddrID = 5
 	chaincfg.MainNetParams.Bech32HRPSegwit = "sys"
@@ -98,7 +98,8 @@ func SetTestNet3Params() {
 	chaincfg.TestNet3Params.ScriptHashAddrID = 196
 	chaincfg.TestNet3Params.Bech32HRPSegwit = "tsys"
 }
-
+SetMainNetParams()
+SetTestNet3Params()
 var (
 	// MainnetGenesisBlockIdentifier is the genesis block for mainnet.
 	MainnetGenesisBlockIdentifier = &types.BlockIdentifier{
@@ -106,7 +107,6 @@ var (
 	}
 
 	// MainnetParams are the params for mainnet
-	SetMainNetParams()
 	MainnetParams = &chaincfg.MainNetParams
 
 	// MainnetCurrency is the *types.Currency for mainnet.
@@ -121,7 +121,6 @@ var (
 	}
 
 	// TestnetParams are the params for testnet.
-	SetTestNet3Params()
 	TestnetParams = &chaincfg.TestNet3Params
 
 	// chain parameters
