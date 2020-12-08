@@ -85,29 +85,30 @@ const (
 	P2PKHScriptPubkeySize = 25               // P2PKH size
 )
 
-// SetMainNetParams is a function to override default mainnet settings with address prefixes
-func SetMainNetParams() {
+// CreateMainNetParams is a function to override default mainnet settings with address prefixes
+func CreateMainNetParams() (*chaincfg.Params) {
 	chaincfg.MainNetParams.PubKeyHashAddrID = 63
 	chaincfg.MainNetParams.ScriptHashAddrID = 5
 	chaincfg.MainNetParams.Bech32HRPSegwit = "sys"
+	return &chaincfg.MainNetParams
 }
 
-// SetTestNet3Params is a function to override default testnet settings with address prefixes
-func SetTestNet3Params() {
+// CreateTestNet3Params is a function to override default testnet settings with address prefixes
+func CreateTestNet3Params() (*chaincfg.Params) {
 	chaincfg.TestNet3Params.PubKeyHashAddrID = 65
 	chaincfg.TestNet3Params.ScriptHashAddrID = 196
 	chaincfg.TestNet3Params.Bech32HRPSegwit = "tsys"
+	return &chaincfg.TestNet3Params
 }
-SetMainNetParams()
-SetTestNet3Params()
+
 var (
 	// MainnetGenesisBlockIdentifier is the genesis block for mainnet.
 	MainnetGenesisBlockIdentifier = &types.BlockIdentifier{
 		Hash: "0000022642db0346b6e01c2a397471f4f12e65d4f4251ec96c1f85367a61a7ab",
 	}
 
-	// MainnetParams are the params for mainnet
-	MainnetParams = &chaincfg.MainNetParams
+	// MainnetParams are the params for mainnet.
+	MainnetParams = CreateMainNetParams()
 
 	// MainnetCurrency is the *types.Currency for mainnet.
 	MainnetCurrency = &types.Currency{
@@ -121,7 +122,7 @@ var (
 	}
 
 	// TestnetParams are the params for testnet.
-	TestnetParams = &chaincfg.TestNet3Params
+	TestnetParams = CreateTestNet3Params()
 
 	// chain parameters
 	// TestnetCurrency is the *types.Currency for testnet.
